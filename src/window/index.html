@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extension Youtube Player</title>
+    <link rel="stylesheet" href="../popup/style/reset.css" />
+    <link rel="stylesheet" href="../popup/style/popup.css" />
+  </head>
+  <style></style>
+  <body>
+    <div class="contents window__parent">
+      <div class="contents__wrap">
+        <div id="youtubeWrap" class="contents__player-wrap">
+          <div id="inputYoutube" class="contents__player"></div>
+          <div id="playMsg" class="contents__play-message">
+            "after 5 seconds, it switches to the next song. This video is not
+            playable."
+          </div>
+        </div>
+        <div class="contents__search">
+          <button id="searchBtn" class="contens__search-icon"></button>
+          <div class="contents__search-window">
+            <input
+              type="text"
+              placeholder="Paste the Youtube video URL"
+              id="urlInput"
+            />
+          </div>
+          <div id="searchMsg" class="contents__search_msg">
+            <p>Paste URL of the Youtube video page.</p>
+          </div>
+        </div>
+
+        <footer>
+          <div class="footer__msg">
+            <p>
+              Extension Youtube Player by
+              <a
+                href="https://twitter.com/akifumiyoshimu"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                >@akifumiyoshimu</a
+              >
+            </p>
+            <p>If you have any problem, please let me know.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="youtubeAPI.js"></script>
+    <script type="text/javascript" src="window.js"></script>
+    <script type="text/javascript" src="searchAnother.js"></script>
+  </body>
+</html>

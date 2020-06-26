@@ -1,0 +1,90 @@
+body,
+html {
+  color: #555;
+  font-family: "Montserrat", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.contents {
+}
+.popup__parent {
+  width: 320px;
+  padding: 0 24px;
+}
+.window__parent {
+  width: 400px;
+}
+.contents__wrap {
+  padding: 8px 16px;
+  text-align: center;
+}
+.contents__player-wrap {
+  position: relative;
+  background-color: #000;
+}
+.contents__play-message {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 4px 0;
+  font-size: 12px;
+  padding: 8px;
+  color: #fff;
+}
+.contents__player-thumb {
+  cursor: pointer;
+}
+.contents__search {
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.contens__search-icon {
+  background-image: url(../../../images/search-icon.png);
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  right: 18px;
+  top: 6px;
+  position: absolute;
+}
+.contents__search-window {
+  text-align: center;
+}
+.contents__search-window input {
+  width: 180px;
+  border: 1px solid #e0e0e0;
+  border-radius: 24px;
+  padding: 8px 40px 8px 16px;
+}
+.contents__search_msg {
+  display: inline-block;
+  color: red;
+  margin: auto;
+  width: 100%;
+}
+.contents__search_msg p {
+  text-align: center;
+  margin: 4px 0 0 0;
+}
+.contents__player {
+  width: 100%;
+  margin: 0 auto;
+}
+.contents__player-show {
+  text-align: center;
+  margin: 24px 0;
+}
+footer {
+  width: 100%;
+}
+.footer__msg {
+  border-top: solid 1px #e0e0e0;
+  text-align: center;
+  margin-top: 8px;
+}
+.popup__search {
+  margin-top: 24px;
+}
